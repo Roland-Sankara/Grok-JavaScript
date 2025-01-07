@@ -14,6 +14,7 @@ Solution:
 - when all is done, return the result
 */
 
+// solution 1
 function capitalizeString(str){
     let strArray = str.split(' ');
     let result = [];
@@ -32,3 +33,11 @@ function capitalizeString(str){
 
 console.log(capitalizeString("roland sankara"));
 console.log(capitalizeString("provides tools and features to visualize your software ideas unlike any other editor out there."));
+
+
+// Solution 2
+function capitalise(str){
+    let strArr = str.split(' ');
+    return strArr.map((word)=>word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+}
+console.log(capitalise("hello world"));
