@@ -7,23 +7,22 @@ type
 Solution:
 =======
 - create 2 variables
-- use the of statement to check if the have the same type
-- If same type, print: "Same data type", else "Not the Same"
+- use the of statement to check if the have the same type and value
+- If same type and value, print: "Same data type and value", else "Not the Same type & value"
 */
 
-let firstName = "Roland";
-let age = 40;
-let country = true;
 
-if(typeof firstName === typeof age){
-    console.log(`Same Datatype for \n${firstName} & ${age}`);
+function checkValueAndType(value1, value2){
+    if(value1 === value2){
+        console.log(`${value1} & ${value2} have - same type & value`);
+    }
+    else{
+        console.log(`Different values or datatypes`);
+    }
 }
-else if(typeof firstName === typeof country){
-    console.log(`Same Datatype for \n${firstName} & ${country}`);
-}
-else if(typeof age === typeof country){
-    console.log(`Same Datatype for \n${age} & ${country}`);
-}
-else{
-    console.log(`Different Datatypes for \n${firstName}, ${age} & ${country}`);
-}
+
+// case 1:
+checkValueAndType("Roland", "roland");
+checkValueAndType("Male", "Male");
+checkValueAndType(5, "5");
+checkValueAndType(5, 5);
