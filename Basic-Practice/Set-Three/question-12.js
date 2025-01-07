@@ -12,5 +12,5 @@ Solution:
 */
 let arr = [61, 30, 1, 3, 5, 10, 12, 6];
 let result;
-result = arr.filter((num)=>!(num>=10));
+result = arr.filter((num)=>!(num>10));
 console.log(result);
