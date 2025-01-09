@@ -5,6 +5,13 @@ let bgColorMenu = document.querySelector("#bg-colors");
 let fontMenu = document.querySelector("#fonts");
 let fontSizeMenu = document.querySelector("#font-size");
 
+// set the default values
+heroSection.style.color = "#E38E49";
+heroSection.style.backgroundColor = "#D4EBF8";
+heroSection.style.backgroundColor = "#D4EBF8";
+heroSection.style.fontFamily = "Lexend, serif";
+heroSection.style.fontSize = "30px";
+
 // function to update color
 const updateColor = (event)=>{
     let color = event.target.value;
