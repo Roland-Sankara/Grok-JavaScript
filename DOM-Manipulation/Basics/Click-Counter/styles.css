@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body > div{
+    width: 40%;
+    margin: auto;
+    background-color: beige;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    font-family: "Outfit", serif;
+    border-radius: 8px;
+    margin-top: 10%;
+}
+
+#count__display{
+    font-size: 100px;
+}
+
+#add__btn{
+    font-size: 25px;
+}
