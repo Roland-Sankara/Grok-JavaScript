@@ -3,6 +3,9 @@ let input = document.querySelector("#password");
 let checkbox = document.querySelector("#checkbox");
 let checkboxLabel = document.querySelector("label[for='checkbox']");
 
+// Disable Password by default
+input.type = "password";
+checkboxLabel.innerText = "Show Password";
 
 function updateVisibility(event){
     let isChecked = checkbox.checked;
