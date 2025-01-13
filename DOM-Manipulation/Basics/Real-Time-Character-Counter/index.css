@@ -2,3 +2,25 @@
 *{
     font-family: "Raleway", serif;
 }
+
+#message-box{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#words-counter{
+    font-size: 20px;
+    border: 2px solid black;
+    width: fit-content;
+    padding-inline: 20px;
+    padding-block: 10px;
+}
+
+#message-area{
+    border: 2px solid teal;
+    border-radius: 6px;
+    outline: none;
+    font-size: 18px;
+    padding: 18px;
+}
