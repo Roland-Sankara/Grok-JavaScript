@@ -23,6 +23,6 @@ function searchTable(){
 }
 
 // add event listener to input
-input.addEventListener('keydown', ()=>{
+input.addEventListener('keyup', ()=>{
     searchTable();
 })
