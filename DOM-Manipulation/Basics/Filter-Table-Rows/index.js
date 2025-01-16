@@ -16,7 +16,7 @@ function searchTable(){
                 tableRowsData[i].style.display = "table-row";
                 break;
             }else{
-                tableRowsData[i].style.display = "none"
+                tableRowsData[i].style.display = "none";
             }
         }
     }
