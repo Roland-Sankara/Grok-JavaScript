@@ -21,9 +21,19 @@ btn.addEventListener('click', ()=>{
     else if(count >= 5 && count <10){
         body.style.backgroundColor = "#E16A54";
     }
-    else if(count >= 10){
+    else if(count >= 10 && count < 20){
         body.style.backgroundColor = "#9F5255";
-    }else{
+    }
+    else if(count >= 20 && count < 30){
+        body.style.backgroundColor = "#025464";
+    }
+    else if(count >= 30 && count < 40){
+        body.style.backgroundColor = "#4D4C7D";
+    }
+    else if(count >= 40 && count <= 50){
+        body.style.backgroundColor = "##363062";
+    }
+    else{
         body.style.backgroundColor = "white";
     }
 })
