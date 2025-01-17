@@ -26,3 +26,4 @@ section{
 #pagination i{
     cursor: pointer;
 }
+let allIcons = document.querySelectorAll('#pagination i');
