@@ -6,7 +6,7 @@ let currentImage = document.querySelector("#current__image");
 let pagination = document.querySelector('#pagination');
 
 // images
-let images = ["pexels-jvdm-1543411.jpg", "pexels-pixabay-40803.jpg", "pexels-pixabay-70080.jpg", "pexels-pixabay-247376.jpg"];
+let images = ["pexels-jvdm-1543411.jpg", "pexels-pixabay-40803.jpg", "pexels-pixabay-70080.jpg", "pexels-hendrikcornelissen-2862070.jpg"];
 let viewportImage = images[0];
 
 // set the paignation
