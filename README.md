@@ -8,3 +8,4 @@
 - Dynamic ToDo List - [Preview List](https://verdant-bombolone-ffa7d0.netlify.app/)
 - Filter Table Rows - [Preview Search Filter](https://stupendous-gelato-75e6a0.netlify.app/)
 - Image Carousel - [Preview Carousel](https://zesty-gnome-06c1d2.netlify.app/)
+- Theme Switcher - [Preview Theme Toggle](https://peaceful-squirrel-afccba.netlify.app/)
