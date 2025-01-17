@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+#prev__image, #next__image{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#current__image{
+    width: 60%;
+}
+#image__box{
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+#pagination i{
+    cursor: pointer;
+}
