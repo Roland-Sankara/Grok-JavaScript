@@ -10,7 +10,7 @@ function searchTable(){
     for(let i=1; i<tableRowsData.length; i++){
         let rowData = tableRowsData[i].children;
         for(let rowCell of rowData){
-            if(rowCell.innerText.toLowerCase().indexOf(input.value.toLowerCase()) > -1){
+            if(rowCell.innerText.toLowerCase().includes(input.value.toLowerCase())){
                 tableRowsData[i].style.display = "table-row";
                 break;
             }else{
