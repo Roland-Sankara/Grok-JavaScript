@@ -2,8 +2,16 @@
 let toggleIcon = document.querySelector('#toggle__icon');
 let body = document.querySelector('body');
 let section = document.querySelector('section');
-localStorage.setItem("ThemeMode", 'light');
 
+let storedTheme = localStorage.getItem("ThemeMode");
+if(storedTheme === 'light'){
+    body.classList.replace("darkTheme", "lightTheme");
+    section.classList.replace("darkTheme", "lightTheme");
+
+}else if(storedTheme === 'dark'){
+    body.classList.replace("lightTheme", "darkTheme");
+    section.classList.replace("lightTheme", "darkTheme");
+}
 
 toggleIcon.addEventListener('click', ()=>{
     // get the theme
